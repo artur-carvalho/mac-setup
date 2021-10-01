@@ -1,16 +1,21 @@
+## Source Repos
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+
+# Non-technical Tools
 cask "firefox"
 cask "google-chrome"
 cask "grammarly"
-cask "iterm2"
-cask "visual-studio-code"
 cask "whatsapp"
 cask "transmission"
 cask "spotify"
 cask "rectangle"
+
+# Technical Tools
+cask "visual-studio-code"
 cask "powershell"
+cask "iterm2"
 brew "kubernetes-cli"
 brew "nmap"
 brew "watch"
