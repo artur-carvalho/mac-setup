@@ -2,6 +2,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+#tap "homwbrew/cask-drivers"
 
 # Non-technical Tools
 cask "firefox"
@@ -12,6 +13,7 @@ cask "whatsapp"
 cask "spotify"
 cask "rectangle"
 cask "maccy"
+#cask "logitech-g-hub"
 
 # Technical Tools
 cask "visual-studio-code"
@@ -22,13 +24,15 @@ cask "drawio"
 brew "kubernetes-cli"
 brew "nmap"
 brew "watch"
-brew "node"
+#brew "node"
 #brew "azure-cli"
+brew "telnet"
 brew "awscli"
 brew "python"
 brew "nomad"
 brew "consul"
-brew "terraform"
+brew "vault"
+#brew "terraform" - Use tfenv instead
 brew "tfenv"
 brew "terraform-docs"
 
